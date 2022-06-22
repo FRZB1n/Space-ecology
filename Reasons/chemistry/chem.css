@@ -1,0 +1,18 @@
+html, body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/png/bR-Zsh6zDi8.jpg");
+}
+header{
+    margin-bottom: 100px;
+}
+
+header h1{
+    
+
+
+    text-shadow: 0 0 10px white,0 0 20px white;
+    color:whitesmoke;
+    text-align: center;
+    
+}

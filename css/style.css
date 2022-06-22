@@ -1,0 +1,122 @@
+html, body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/png/bR-Zsh6zDi8.jpg");
+}
+
+
+
+header{
+    margin-bottom: 100px;
+}
+
+header h1{
+    
+
+
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;
+    color:whitesmoke;
+    text-align: center;
+    
+}
+
+
+
+body .zag{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(219, 219, 219);
+    margin-bottom: 100px;
+    
+}
+
+
+body ul{
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+}
+body ul li{
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+
+
+body .left ul li{
+    text-align: center;
+}
+
+body .left ul li a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+body .left ul li:hover{
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;
+}
+
+
+
+
+
+
+body .left{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 48%;
+    float:left;
+    
+}
+
+body .right{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 48%;
+    float: right;
+}
+
+
+body .left p{
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+body .right p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width : 767px) {
+    body .right{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+      
+    }
+    body .left{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        margin-bottom: 40px;
+      
+    }
+   
+    
+}

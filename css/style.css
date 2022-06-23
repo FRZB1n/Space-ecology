@@ -129,15 +129,19 @@ body .right p{
 body img{
     
     display: block;
-    height: 29%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 29%;
+    width: 45%;
     box-shadow: 0 0 100px white;
     
 }
 
 @media only screen and (max-width : 767px) {
+    body img{
+        width:90%;
+        height: auto;
+    }
     body .right{
         margin-left: 10%;
         margin-right: 10%;

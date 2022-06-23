@@ -16,20 +16,3 @@ header h1{
     text-align: center;
     
 }
-body h1{
-    text-align: center;
-    color: white;
-}
-body img{
-    box-shadow: 0 0 50px white;
-    margin-top: 50px;
-    width:30%;
-    height: 30%;
-    
-}
-body .l{
-    float: left;
-}
-body .r{
-    float: right;
-}

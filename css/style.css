@@ -61,6 +61,22 @@ body .left ul li:hover{
 }
 
 
+body .right ul{
+    padding-top: 3%;
+}
+body .right ul li{
+    text-align: center;
+}
+
+body .right ul li a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+body .right ul li:hover{
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;
+}
 
 
 
@@ -72,6 +88,8 @@ body .left{
     border-radius: 20px;
     width: 48%;
     float:left;
+    height: 245px;
+    margin-bottom: 100px;
     
 }
 
@@ -81,6 +99,8 @@ body .right{
     border-radius: 20px;
     width: 48%;
     float: right;
+    height: 245px;
+    margin-bottom: 100px;
 }
 
 
@@ -106,11 +126,23 @@ body .right p{
     border-bottom: 1px solid white;
 }
 
+body img{
+    
+    display: block;
+    height: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    box-shadow: 0 0 100px white;
+    
+}
+
 @media only screen and (max-width : 767px) {
     body .right{
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
+        height: auto;
       
     }
     body .left{
@@ -118,8 +150,11 @@ body .right p{
         margin-right: 10%;
         width: 80%;
         margin-bottom: 40px;
+        height: auto;
       
     }
    
-    
+    body .right ul{
+        padding-top:unset;
+    }
 }

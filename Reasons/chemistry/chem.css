@@ -6,7 +6,18 @@ html, body{
 header{
     margin-bottom: 100px;
 }
-
+#particles-js{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#page-wrapper{
+    position: relative;
+    z-index: 2;
+}
 header h1{
     
 
